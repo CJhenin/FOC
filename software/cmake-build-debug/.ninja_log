@@ -1,0 +1,27 @@
+# ninja log v5
+16	171	7266633633677141	CMakeFiles/software.elf.dir/Core/Src/sysmem.c.obj	11265ff45262e92d
+25	192	7266633633879476	CMakeFiles/software.elf.dir/Core/Src/system_stm32f1xx.c.obj	6569b260f7a9615d
+8	201	7266633633979545	CMakeFiles/software.elf.dir/Core/Src/gpio.c.obj	3d95b089bcb5dfa2
+20	219	7266633634176731	CMakeFiles/software.elf.dir/Core/Src/stm32f1xx_it.c.obj	2d8d6cdea940d40f
+3	229	7266633634216746	CMakeFiles/software.elf.dir/Core/Src/main.c.obj	a03bc9686f94b289
+12	224	7266633634196740	CMakeFiles/software.elf.dir/Core/Src/syscalls.c.obj	90d317f373cb418
+172	261	7266633634604374	CMakeFiles/software.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj	d1d57e5b06ebc696
+202	345	7266633635449692	CMakeFiles/software.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_exti.c.obj	17908a36c1d231cd
+219	363	7266633635628981	CMakeFiles/software.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_gpio.c.obj	45ede18cca2e37dc
+193	328	7266633635273822	CMakeFiles/software.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_pwr.c.obj	2c6b7686991d4990
+225	374	7266633635746277	CMakeFiles/software.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_rcc.c.obj	382e59c443fbd182
+229	383	7266633635842967	CMakeFiles/software.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_utils.c.obj	ba7d6925f6088e7
+383	610	7266633637525231	software.elf	8feb98d46fa935d
+8	112	7266635731626045	CMakeFiles/software.elf.dir/Core/Src/sysmem.c.obj	11265ff45262e92d
+16	128	7266635731798146	CMakeFiles/software.elf.dir/Core/Src/system_stm32f1xx.c.obj	6569b260f7a9615d
+5	139	7266635731899642	CMakeFiles/software.elf.dir/Core/Src/gpio.c.obj	3d95b089bcb5dfa2
+12	150	7266635732013035	CMakeFiles/software.elf.dir/Core/Src/stm32f1xx_it.c.obj	2d8d6cdea940d40f
+2	153	7266635732037104	CMakeFiles/software.elf.dir/Core/Src/main.c.obj	a03bc9686f94b289
+10	159	7266635732094222	CMakeFiles/software.elf.dir/Core/Src/syscalls.c.obj	90d317f373cb418
+113	189	7266635732401078	CMakeFiles/software.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj	d1d57e5b06ebc696
+150	261	7266635733117544	CMakeFiles/software.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_pwr.c.obj	2c6b7686991d4990
+140	263	7266635733138193	CMakeFiles/software.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_exti.c.obj	17908a36c1d231cd
+129	264	7266635733148631	CMakeFiles/software.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_gpio.c.obj	45ede18cca2e37dc
+154	281	7266635733337964	CMakeFiles/software.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_rcc.c.obj	382e59c443fbd182
+160	303	7266635733543777	CMakeFiles/software.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_utils.c.obj	ba7d6925f6088e7
+303	499	7266635734918470	software.elf	8feb98d46fa935d
