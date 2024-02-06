@@ -21,6 +21,6 @@ CMAKE_C_COMPILER= D:/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc-10.3.1
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- Minimal optimization, debug info included
--- Configuring done (2.0s)
+-- Configuring done (2.5s)
 -- Generating done (0.0s)
 -- Build files have been written to: C:/Users/lenovo/Desktop/FOC/HAL_SoftWare/cmake-build-debug-mingw-stm32

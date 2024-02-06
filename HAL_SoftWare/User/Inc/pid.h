@@ -1,6 +1,9 @@
 #ifndef PID_H
 #define PID_H
 
+#define LIMIT_IOUT      5
+#define LIMIT_OUTPUT    10
+
 typedef struct
 {
     float kp;

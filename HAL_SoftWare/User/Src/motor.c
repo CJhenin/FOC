@@ -23,6 +23,12 @@ void Elangle_cal(void)
     }
 }
 
+void Speed_cal(void)
+{
+    motor.speed = (motor.mech_angle - motor.pre_mech_angle) / SPEED_T;  //divide 360
+    motor.pre_mech_angle = motor.mech_angle;
+}
+
 void Motor_Angle_calibration(void)
 {
     Motor_Enable();

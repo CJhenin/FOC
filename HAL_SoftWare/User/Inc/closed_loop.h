@@ -9,4 +9,7 @@ extern void IdIq_Pi_Control(float ex_id, float ex_iq);
 extern float Speed_PI_Control(float ex_speed);
 extern float Position_Pid_Control(float ex_position);
 
+extern void Position_Loop(float ex_position);
+extern void Speed_Loop(float ex_speed);
+
 #endif

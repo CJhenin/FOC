@@ -21,6 +21,8 @@ void get_as5600angle(void)
         motor.mech_angle = (float)(raw_angle * 0.08789);   //360degree / 2^12bit
         motor.first_mech_angle = motor.mech_angle;
         motor.first_read_flag++;
+
+        motor.pre_mech_angle = motor.first_mech_angle;
     }
     motor.mech_angle = (float)(raw_angle * 0.08789) - motor.first_mech_angle;
     motor.mech_angle = (motor.mech_angle >= 0 ? (motor.mech_angle) : (motor.mech_angle + 360));

@@ -7,8 +7,8 @@ Pid position_pid = {0};
 
 void IdIq_Pi_Control(float ex_id, float ex_iq)
 {
-    foc.Ia = motor.current[1];
-    foc.Ib = motor.current[0];
+    foc.Ia = motor.current[0];
+    foc.Ib = motor.current[1];
     ClarkTransform(foc.Ia, foc.Ib);
     ParkTransform(foc.Ialpha, foc.Ibeta, motor.el_angle);
 
@@ -34,3 +34,16 @@ float Speed_PI_Control(float ex_speed)
     return speed_out;
 }
 
+void Position_Loop(float ex_position)
+{
+    float position_out = Position_Pid_Control(ex_position);
+
+    IdIq_Pi_Control(0, position_out);
+}
+
+void Speed_Loop(float ex_speed)
+{
+    float speed_out = Speed_PI_Control(ex_speed);
+
+    IdIq_Pi_Control(0, speed_out);
+}
